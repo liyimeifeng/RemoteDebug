@@ -24,9 +24,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-
         setContentView(R.layout.activity_main);
-
+//
 //        Set<String> stringSet = new HashSet<>();
 //        stringSet.add("SetOne");
 //        stringSet.add("SetTwo");
@@ -80,13 +79,13 @@ public class MainActivity extends AppCompatActivity {
 //
 //        Utils.setCustomDatabaseFiles(getApplicationContext());
 
-        DebugHelper.start(this, "mac");
+        DebugHelper.start(this, "683e34272ef5");
 
     }
 
     public void showDebugDbAddress(View view) {
-//        Utils.showDebugDBAddressLogToast(getApplicationContext());
-//        DebugHelper.close(this);
+        Utils.showDebugDBAddressLogToast(getApplicationContext());
+        DebugHelper.close(this);
     }
 
 }

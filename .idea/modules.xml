@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidDebugXXXXXX.iml" filepath="$PROJECT_DIR$/AndroidDebugXXXXXX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libdebug/libdebug.iml" filepath="$PROJECT_DIR$/libdebug/libdebug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libremoteproxy/libremoteproxy.iml" filepath="$PROJECT_DIR$/libremoteproxy/libremoteproxy.iml" />
+    </modules>
+  </component>
+</project>
